@@ -7,11 +7,19 @@ body {
   background-color: #f2ebe3;
   color: #6c7289;
   font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
 
 .contain {
   background-color: #ffffff;
-  width: 700px;
+
+  width: 800px;
+  margin: 50px auto 0 auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img{
 }
 
 h1 {
@@ -25,3 +33,28 @@ h1 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
